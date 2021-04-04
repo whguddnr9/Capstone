@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="페어링 된 기기 목록"
+        android:textSize="26dp"
+        android:layout_marginTop="5dp"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        android:layout_marginLeft="4dp"
+        android:stretchColumns="*"
+        android:shrinkColumns="*">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#C4C4C4">
+            <TextView
+                android:id="@+id/text_deviceName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:gravity="center"
+                android:text="기기명"
+                android:textSize="18dp"
+                android:background="#DEDEDE"
+                android:layout_margin="0.5dp"/>
+
+            <TextView
+                android:id="@+id/text_connTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:gravity="center"
+                android:text="연결 종료 시간"
+                android:textSize="18dp"
+                android:background="#DEDEDE"
+                android:layout_margin="0.5dp"/>
+
+            <TextView
+                android:id="@+id/text_connLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:gravity="center"
+                android:text="연결 위치"
+                android:textSize="18dp"
+                android:background="#DEDEDE"
+                android:layout_margin="0.5dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#C4C4C4">
+            <TextView
+                android:id="@+id/text_deviceName1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="13dp"
+                android:gravity="center"
+                android:text="183911"
+                android:textSize="17dp"
+                android:background="@color/white"
+                android:layout_margin="0.5dp"/>
+
+            <TextView
+                android:id="@+id/text_connTime1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="13dp"
+                android:gravity="center"
+                android:text="21.04.04 12:31 AM"
+                android:textSize="17dp"
+                android:background="@color/white"
+                android:layout_margin="0.5dp"/>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_gravity="center"
+                android:paddingRight="30dp"
+                android:paddingLeft="33dp"
+                android:layout_margin="0.5dp">
+                <Button
+                    android:id="@+id/btn_connLocation1"
+                    android:layout_width="60dp"
+                    android:layout_height="49dp"
+                    android:gravity="center"
+                    android:text="보기"
+                    android:textSize="12dp"
+                    android:textColor="@color/white"
+                    android:backgroundTint="#808080"/>
+            </TableRow>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#C4C4C4">
+            <TextView
+                android:id="@+id/text_deviceName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="13dp"
+                android:gravity="center"
+                android:text="183911"
+                android:textSize="17dp"
+                android:background="@color/white"
+                android:layout_margin="0.5dp"/>
+
+            <TextView
+                android:id="@+id/text_connTime2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="13dp"
+                android:gravity="center"
+                android:text="21.04.04 12:31 AM"
+                android:textSize="17dp"
+                android:background="@color/white"
+                android:layout_margin="0.5dp"/>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_gravity="center"
+                android:paddingRight="30dp"
+                android:paddingLeft="33dp"
+                android:layout_margin="0.5dp">
+                <Button
+                    android:id="@+id/btn_connLocation2"
+                    android:layout_width="60dp"
+                    android:layout_height="49dp"
+                    android:gravity="center"
+                    android:text="보기"
+                    android:textSize="12dp"
+                    android:textColor="@color/white"
+                    android:backgroundTint="#808080"/>
+            </TableRow>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#C4C4C4">
+            <TextView
+                android:id="@+id/text_deviceName3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="13dp"
+                android:gravity="center"
+                android:text="183911"
+                android:textSize="17dp"
+                android:background="@color/white"
+                android:layout_margin="0.5dp"/>
+
+            <TextView
+                android:id="@+id/text_connTime3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="13dp"
+                android:gravity="center"
+                android:text="21.04.04 12:31 AM"
+                android:textSize="17dp"
+                android:background="@color/white"
+                android:layout_margin="0.5dp"/>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_gravity="center"
+                android:paddingRight="30dp"
+                android:paddingLeft="33dp"
+                android:layout_margin="0.5dp">
+                <Button
+                    android:id="@+id/btn_connLocation3"
+                    android:layout_width="60dp"
+                    android:layout_height="49dp"
+                    android:gravity="center"
+                    android:text="보기"
+                    android:textSize="12dp"
+                    android:textColor="@color/white"
+                    android:backgroundTint="#808080"/>
+            </TableRow>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
